@@ -4,7 +4,7 @@ import os
 def create_dataframe():
     data = {
         "Name": ["Alice", "Bob", "Charlie", "David", "Eve"],
-        "Age": [30, 25, 22, 28, 35]
+        "Age": [22, 25, 22, 28, 35]
     }
     df = pd.DataFrame(data)
     return df
